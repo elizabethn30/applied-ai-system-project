@@ -1,0 +1,8 @@
+graph TD
+    A["User Input<br/>I want chill acoustic music"] --> B["RETRIEVER<br/>Search songs.csv<br/>Filter by mood/genre"]
+    B --> C["RETRIEVED SONGS<br/>Filtered candidate songs"]
+    C --> D["LLM Google Gemini<br/>Generate explanation<br/>using song data"]
+    D --> E["OUTPUT<br/>Recommendation<br/>with reasoning"]
+    E --> F["LOGGING<br/>Track: input, retrieval,<br/>LLM response, errors"]
+    E --> G["HUMAN EVALUATION<br/>Check: Retrieved songs match input?<br/>Does LLM use the data?<br/>Is recommendation sensible?"]
+    F --> G

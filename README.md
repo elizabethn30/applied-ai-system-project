@@ -135,7 +135,7 @@ I built the system this way because I wanted users to get a more personalized re
 
 ## Testing Summary
 
-
+The traditional input of sentences with keywords worked well for the model, and the model handled an empty input well by still providing broad recommendations and asking the user for a preference again. The AI was not sure how to handle integer inputs, so I would need to add a guardrail for integer inputs. I learned that the LLM could handle a lot of information very well, even without context. For example, even though the model did not have anywhere to explain what to do with integers, the LLM still gave back recommendations based on the integer scores of the songs' features. I think this is a very impressive feat as I thought the integer input would cause the program to immediately crash. 
 
 ---
 

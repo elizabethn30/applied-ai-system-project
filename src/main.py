@@ -21,8 +21,8 @@ def main() -> None:
     test_queries = [
         "I want chill acoustic music",
         "I'm looking for upbeat pop songs",
-        "Give me something intense and energetic",
-        "I want relaxed jazz vibes",
+        " ",
+        "345",
         "Recommend something melancholic"
     ]
 

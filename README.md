@@ -22,29 +22,29 @@ The system starts with taking in the user's music preference and goes to the dat
 
 ## Setup Instructions
 
-# 1. Create your virtual environment
+**1. Create your virtual environment**
 ```
 python -m venv .venv
 .\venv\Scripts\activate # For Windows
 ```
 
-# 2. Install Python dependencies
+**2. Install Python dependencies**
 ```
 pip install -r requirements.txt
 ```
 
-# 3. Configure environment variables
+**3. Configure environment variables**
 ```
 cp .env.example .env
 ```
 
-# 4. Add your Gemini key
+**4. Add your Gemini key**
 Replace the line saying "your_key_here" with your API key:
 ```
 GEMINI_API_KEY=your_key_here
 ```
 
-# 5. Run the Music Recommender Simulation
+**5. Run the Music Recommender Simulation**
 ```
 python src/main.py
 ```

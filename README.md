@@ -56,6 +56,7 @@ python src/main.py
 ### Example 1
 **Input:** 
 I want chill acoustic music
+
 **Output:** 
 Retrieved Songs:
   • Sunrise City by Neon Echo (pop, happy)
@@ -82,6 +83,7 @@ While *Midnight Coding* is also a chill lofi track, *Library Rain* edges it out 
 ### Example 2
 **Input:** 
 I'm looking for upbeat pop songs
+
 **Output:** 
 Retrieved Songs:
   • Sunrise City by Neon Echo (pop, happy)
@@ -106,6 +108,7 @@ Therefore, **Sunrise City** hits the sweet spot of being a true pop song with a 
 ### Example 3
 **Input:** 
 Recommend something melancholic
+
 **Output:** 
 Retrieved Songs:
   • Sunrise City by Neon Echo (pop, happy)

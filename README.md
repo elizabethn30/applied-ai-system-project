@@ -1,4 +1,4 @@
-# [Project Title]
+# Music Recommender Simulation Extended - Project 4
 
 ## Original Project
 
